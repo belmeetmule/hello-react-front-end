@@ -1,7 +1,6 @@
-import React, {useState} from "react";
+import React from "react";
 import {useSelector, useDispatch} from "react-redux";
-import {selectGreeting, fetchAsync, load} from "../../redux/reducers/greetingSlice";
-import styles from "./Greeting.module.css";
+import {selectGreeting, fetchAsync} from "../../redux/reducers/greetingSlice";
 
 export const Greeting = () => {
     const greeting = useSelector(selectGreeting);
@@ -11,17 +10,31 @@ export const Greeting = () => {
         dispatch(fetchAsync());
     };
 
+   const container = {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '1rem',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh'
+    };
+
     return (
-        <div>
-            <div className={styles.row}>
-                <span className={styles.message}> 
+        <div style={container}>
+            <header>
+                <h1> Welcome to the Greeting App </h1>
+            </header>
+
+            <p style={{marginTop:-30, fontSize: 16, color: "gray"}}> You can see random greeting message by clicking the greeting button</p>
+      
+            <div className="row"> <span style={{color: "cadetblue", fontStyle: "italic", fontSize: 24}} > 
                     {greeting} 
-                </span>
+                  </span>
             </div>
-            <div className={styles.row}>
+            <div>
                 <button 
-                className={styles.button}
-                aria-label="Decrement value"
+                style={{marginTop: 20, fontSize: 20, paddingTop: 10, paddingBottom: 10, paddingLeft: 20, paddingRight: 20, backgroundColor: "crimson", color: "white", borderRadius: 5}}
+                aria-label="Get greeting"
                 onClick={onGreetingClicked}>Greet</button>
             </div>
         </div>
