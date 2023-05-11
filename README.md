@@ -1,46 +1,154 @@
-# Getting Started with Create React App and Redux
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<!-- TABLE OF CONTENTS -->
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-### `npm start`
+<!-- PROJECT DESCRIPTION -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 **Hello React Frontend** <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Hello React Frontend** is a practice project that serves as a forend for the <a href="https://github.com/belmeetmule/hello-react-back-end">Hello React Back End</a>. These two projects are part of a single project that is a fullstack random greeting message web app. 
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run build`
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://react.org">react.js</a></li>
+  </ul>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>Rails</li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Features -->
 
-### `npm run eject`
+### Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **consumes API provided by Hello React Backend**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- GETTING STARTED -->
+## 💻 Getting Started <a name="getting-started"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To get a local copy up and running, follow these steps.
+### Prerequisites
 
-## Learn More
+In order to run this project you need:
+`Git` and `node` installed in your environment.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone this repository by running the following command in your terminal:
+
+  ```sh
+    git clone
+  ```
+
+install all the dependencies of the project by running the following command in your terminal:
+
+```sh
+  npm install
+```
+### Usage
+
+To run the project, execute the following command:
+  
+  ```sh
+    npm start
+  ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Mulugeta M.**
+
+- GitHub: [@belmeetmule](https://github.com/belmeetmule)
+- Twitter: [@belmeetmule](https://twitter.com/belmeetmule)
+- LinkedIn: [belmeetmule](https://linkedin.com/in/belmeetmule)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Random greeting message]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank:
+- [Microverse](https://www.microverse.org/)
+- Code Reviewers
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
