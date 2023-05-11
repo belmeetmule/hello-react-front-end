@@ -74,10 +74,16 @@ In order to run this project you need:
 ### Install
 
 Install this project with:
-  
+
+
+clone this repository by running the following command in your terminal:
+
   ```sh
     git clone
   ```
+
+install all the dependencies of the project by running the following command in your terminal:
+
 ```sh
   npm install
 ```
