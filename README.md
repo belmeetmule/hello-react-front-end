@@ -69,47 +69,25 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-`Git`, `postgres`, <a href="https://github.com/belmeetmule/hello-react-back-end">Hello React Back End</a> and `Ruby`
-```
- gem install rails
-```
+`Git` and `node` installed in your environment.
 
 ### Install
 
 Install this project with:
-
-```sh
-  bundle install
-```
+  
+  ```sh
+    git clone
+  ```
 ```sh
   npm install
-```
-
-Create Database (Mandatory)
-
-```
-rails db:create
-```
-
-If you have made a migration then run this command
-
-```
-rails db:migrate
-```
-```
-rails db:seed
 ```
 ### Usage
 
 To run the project, execute the following command:
-
-```sh
-  ./bin/dev  # for building css, and webpack, and rails server
-``` 
-Or
-```sh
-  rails server or rails s  # after build
-```
+  
+  ```sh
+    npm start
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,18 +139,6 @@ I would like to thank:
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
