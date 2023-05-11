@@ -73,10 +73,7 @@ In order to run this project you need:
 
 ### Install
 
-Install this project with:
-
-
-clone this repository by running the following command in your terminal:
+Clone this repository by running the following command in your terminal:
 
   ```sh
     git clone
